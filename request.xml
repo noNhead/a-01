@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://www.example.org/data/gen">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:getBouquetRequest>
+            <gs:name>name1</gs:name>
+        </gs:getBouquetRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
